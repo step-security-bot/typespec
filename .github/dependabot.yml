@@ -1,0 +1,301 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /e2e/basic-latest
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /e2e
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /eng/tsp-core/scripts
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/best-practices
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/bundle-uploader
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/bundler
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/compiler
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/compiler/templates/__snapshots__/emitter-ts
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/compiler/templates/__snapshots__/library-ts
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/compiler/templates/emitter-ts
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/compiler/templates/library-ts
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/compiler/test/e2e/scenarios/backcompat-package-cadlMain
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/compiler/test/e2e/scenarios/backcompat-package-no_main
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/compiler/test/e2e/scenarios/backcompat-package-tspMain-customCadl
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/compiler/test/e2e/scenarios/backcompat-package-tspMain-mainCadl
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/compiler/test/e2e/scenarios/emitter-with-typespec
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/compiler/test/e2e/scenarios/invalid-lib
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/compiler/test/e2e/scenarios/js-lib
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/compiler/test/e2e/scenarios/typespec-lib
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/compiler/test/libraries/library-dev
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/eslint-plugin-typespec
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/html-program-viewer
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /packages/http-client-csharp/generator/Microsoft.Generator.CSharp.ClientModel/src
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /packages/http-client-csharp/generator/Microsoft.Generator.CSharp.Customization/src
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /packages/http-client-csharp/generator/Microsoft.Generator.CSharp.Input/src
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /packages/http-client-csharp/generator/Microsoft.Generator.CSharp.Input/test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /packages/http-client-csharp/generator/Microsoft.Generator.CSharp/src
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /packages/http-client-csharp/generator/Microsoft.Generator.CSharp/test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /packages/http-client-csharp/generator/TestProjects/Local
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/http-client-csharp
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/http
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/internal-build-utils
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/json-schema
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/library-linter
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/monarch
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/openapi
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/openapi3
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/playground-website
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/playground
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/prettier-plugin-typespec
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/protobuf
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/rest
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/samples
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/samples/specs/local-typespec
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/samples/specs/petstore
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/samples/specs/rest/petstore
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/spec
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/tmlanguage-generator
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/tspd
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /packages/typespec-vs
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/typespec-vs
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /packages/typespec-vs/src
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/typespec-vscode
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/typespec-vscode/scripts
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/versioning
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/website
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/xml
+    schedule:
+      interval: daily
